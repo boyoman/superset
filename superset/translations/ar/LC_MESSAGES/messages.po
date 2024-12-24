@@ -48,7 +48,17 @@ msgid ""
 "cumulative doesn't change your\n"
 "                original data, it just changes the way the histogram is "
 "displayed."
-msgstr ""
+msgstr  ""
+"\n"
+"                يتيح لك الخيار التراكمي رؤية كيفية تجمع بياناتك "
+"عبر القيم المختلفة.\n"
+"                عند تمكينه، تمثل أعمدة الهيستوجرام المجموع "
+"التراكمي للترددات حتى كل خانة.\n"
+"                يساعدك هذا في فهم مدى احتمال مواجهة قيم أقل من "
+"نقطة معينة.\n"
+"                ضع في اعتبارك أن تمكين الخيار التراكمي لا يغير بياناتك "
+"الأصلية، بل يغير فقط طريقة عرض الهيستوجرام."
+
 
 msgid ""
 "\n"
@@ -63,6 +73,16 @@ msgid ""
 "                clearer understanding of the proportion of data points "
 "within each bin."
 msgstr ""
+"\n"
+"                يتيح خيار التطبيع تحويل قيم الهيستوجرام إلى نسب "
+"أو احتمالات\n"
+"                من خلال قسمة عدد البيانات في كل خانة على العدد "
+"الإجمالي لنقاط البيانات.\n"
+"                يضمن هذا العملية أن تكون القيم الناتجة مجموعها 1، "
+"مما يتيح مقارنة نسبية\n"
+"                لتوزيع البيانات ويوفر فهمًا أوضح لنسبة نقاط "
+"البيانات داخل كل خانة."
+
 
 msgid ""
 "\n"
@@ -216,6 +236,10 @@ msgid ""
 "schedule with a minimum interval of %(minimum_interval)d minutes per "
 "execution."
 msgstr ""
+"تجاوز تكرار جدول %(report_type)s الحد المسموح به. يرجى تكوين جدول "
+"بفاصل زمني لا يقل عن %(minimum_interval)d دقيقة لكل تنفيذ."
+
+
 
 #, python-format
 msgid "%(rows)d rows returned"
@@ -303,7 +327,8 @@ msgstr "%s عمود (أعمدة)"
 
 #, python-format
 msgid "%s ineligible item(s) are hidden"
-msgstr ""
+msgstr "%s عنصر/عناصر غير مؤهلة مخفية"
+
 
 #, python-format
 msgid ""
@@ -382,6 +407,12 @@ msgid ""
 "    Error: %(text)s\n"
 "    "
 msgstr ""
+"*%(name)s*\n"
+"\n"
+"    %(description)s\n"
+"\n"
+"    خطأ: %(text)s\n"
+"    "
 
 #, python-format
 msgid ""
@@ -487,7 +518,7 @@ msgid "1AS"
 msgstr "1كما"
 
 msgid "1D"
-msgstr ""
+msgstr "يوم واحد"
 
 msgid "1H"
 msgstr "1 ساعة"
@@ -637,7 +668,7 @@ msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr "قائمة مفصولة بفواصل من المخططات التي يسمح للملفات بالتحميل إليها."
 
 msgid "A database port is required when connecting via SSH Tunnel."
-msgstr ""
+msgstr "منفذ قاعدة البيانات مطلوب عند الإتصال عبر قناة SSH"
 
 msgid "A database with the same name already exists."
 msgstr "قاعدة بيانات بنفس الاسم موجودة بالفعل."
@@ -828,10 +859,11 @@ msgid "Add Alert"
 msgstr "إضافة تنبيه"
 
 msgid "Add BCC Recipients"
-msgstr ""
+msgstr "إضافة مستلمين بنسخة مخفية (BCC)"
 
 msgid "Add CC Recipients"
-msgstr ""
+msgstr "إضافة مستلمين بنسخة كربونية (CC)"
+
 
 msgid "Add CSS template"
 msgstr "إضافة قالب CSS"
@@ -1035,17 +1067,17 @@ msgstr "المضافه"
 msgid ""
 "Adds color to the chart symbols based on the positive or negative change "
 "from the comparison value."
-msgstr ""
+msgstr "أضف الواناً الى الرسم البياني بناء على التغييرات الإيجابية او السلبية فيه من قيمة المقارنة"
 
 msgid ""
 "Adjust column settings such as specifying the columns to read, how "
 "duplicates are handled, column data types, and more."
-msgstr ""
+msgstr "قم بتعديل إعدادات الأعمدة مثل تحديد عمود للقراءة منه او كيفية التعامل مع التكرار او أنواع الأعمدة وغيرها"
 
 msgid ""
 "Adjust how spaces, blank lines, null values are handled and other file "
 "wide settings."
-msgstr ""
+msgstr "قم بضبط كيف يتعم التعامل مع المساحات بين الكلمات او السطور والقيم والفارغة او اعدادات الملفات"
 
 msgid "Adjust how this database will interact with SQL Lab."
 msgstr "اضبط كيفية تفاعل قاعدة البيانات هذه مع SQL Lab."
@@ -1233,7 +1265,8 @@ msgid "Allow DML"
 msgstr "السماح ب DML"
 
 msgid "Allow changing catalogs"
-msgstr ""
+msgstr "السماح بتغيير الكتالوجات"
+
 
 msgid ""
 "Allow column names to be changed to case insensitive format, if supported"
@@ -1782,7 +1815,8 @@ msgid "August"
 msgstr "أغسطس"
 
 msgid "Authorization needed"
-msgstr ""
+msgstr "يتطلب تفويض"
+
 
 msgid "Auto"
 msgstr "تلقائي"
@@ -3374,7 +3408,7 @@ msgid "Customize columns"
 msgstr "تخصيص الأعمدة"
 
 msgid "Customize data source, filters, and layout."
-msgstr ""
+msgstr "قم بتخصيص مصدر البيانات او المرشحات او طريقة العرض"
 
 msgid "Cyclic dependency detected"
 msgstr "تم الكشف عن التبعية الدورية"
@@ -3443,7 +3477,7 @@ msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "تمت إضافة لوحة المعلومات [{}] إليها"
 
 msgid "Dashboard cannot be copied due to invalid parameters."
-msgstr ""
+msgstr "لايمكن نسخ اللوحة بسبب وجود مدخلات غير صحيحة"
 
 msgid "Dashboard could not be deleted."
 msgstr "تعذر حذف لوحة المعلومات."
@@ -3630,7 +3664,7 @@ msgid "Database upload file failed"
 msgstr "حدد قاعدة بيانات لتحميل الملف إليها"
 
 msgid "Database upload file failed, while saving metadata"
-msgstr ""
+msgstr "خطأ في رفع قاعدة البيانات . البيانات الوصفية (الميتا داتا) غير صحيحة"
 
 msgid "Databases"
 msgstr "قواعد البيانات"
@@ -3899,10 +3933,11 @@ msgstr ""
 "المحتوية في نطاق عتبة معين."
 
 msgid "Define delivery schedule, timezone, and frequency settings."
-msgstr ""
+msgstr "حدد جدول التسليم وإعدادات المنطقة الزمنية والتكرار."
+
 
 msgid "Define the database, SQL query, and triggering conditions for alert."
-msgstr ""
+msgstr "حدد قاعدة البيانات او الإستعلام وشروط التفعيل للإسعار"
 
 msgid ""
 "Defines a rolling window function to apply, works along with the "
@@ -4379,7 +4414,7 @@ msgstr ""
 msgid ""
 "Drill to detail is disabled for this database. Change the database "
 "settings to enable it."
-msgstr ""
+msgstr "هذه الميزة معطلة لقاعدة البيانات هذه . قم بتغييرها من الضبط لتفعيلها"
 
 #, python-format
 msgid "Drill to detail: %s"
@@ -4863,7 +4898,7 @@ msgid "Error message"
 msgstr "رسالة خطأ"
 
 msgid "Error reading CSV file"
-msgstr ""
+msgstr " خطأ في قراءة ملف csv"
 
 #, fuzzy
 msgid "Error reading Columnar file"
@@ -4945,7 +4980,7 @@ msgid "Excel Upload"
 msgstr "تحميل CSV"
 
 msgid "Excel file format cannot be determined"
-msgstr ""
+msgstr " تعذر تحديد صيغة ملف جدول البيانات (الأكسل)"
 
 msgid "Exclude selected values"
 msgstr "استبعاد القيم المحددة"
@@ -5178,7 +5213,7 @@ msgid "Featured"
 msgstr "انشاء"
 
 msgid "Featured color palettes"
-msgstr ""
+msgstr "صندوق الألوان"
 
 msgid "February"
 msgstr "شهر فبراير"
@@ -5219,7 +5254,7 @@ msgid "File extension is not allowed."
 msgstr "لا يسمح باستخدام عنوان URI للبيانات."
 
 msgid "File size exceeds the maximum allowed size."
-msgstr ""
+msgstr "حجم الملف أكثر من الحجم المسموح"
 
 #, fuzzy
 msgid "File upload"
@@ -5459,6 +5494,10 @@ msgid ""
 "represents a new line. ECharts compatibility:\n"
 "{a} (series), {b} (name), {c} (value), {d} (percentage)"
 msgstr ""
+"تنسيق تسميات البيانات. استخدم المتغيرات: {name}، {value}، {percent}. \\n "
+"يمثل سطرًا جديدًا. التوافق مع ECharts:\n"
+"{a} (series)، {b} (name)، {c} (value)، {d} (percentage)"
+
 
 msgid "Formatted CSV attached in email"
 msgstr "ملف CSV منسق مرفق بالبريد الإلكتروني"
@@ -5549,7 +5588,8 @@ msgid "Get the specify date for the holiday"
 msgstr "احصل على التاريخ المحدد للعطلة"
 
 msgid "Give access to multiple catalogs in a single database connection."
-msgstr ""
+msgstr "وفر إمكانية الوصول إلى كتالوجات متعددة في اتصال قاعدة بيانات واحد."
+
 
 msgid "Go to the edit mode to configure the dashboard and add charts"
 msgstr "انتقل إلى وضع التحرير لتكوين لوحة المعلومات وإضافة المخططات"
@@ -5579,7 +5619,7 @@ msgid "Greater than (>)"
 msgstr "أكبر من (>)"
 
 msgid "Green for increase, red for decrease"
-msgstr ""
+msgstr "الأخضر للزيادة والأحمر للنقصان"
 
 msgid "Grid"
 msgstr "جريد"
